@@ -1,0 +1,1 @@
+repository for creating kong docker image with self managed custom plugin 
