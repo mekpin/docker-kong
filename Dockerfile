@@ -4,4 +4,3 @@ RUN apk update && apk add git unzip luarocks
 COPY kong-middleman-plugin/ plugins/middleman
 RUN cd plugins/middleman && luarocks make *.rockspec
 USER kong
-
